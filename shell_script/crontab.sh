@@ -2,5 +2,5 @@
 cd /script/DDNSClient_project
 source ./venv/bin/activate
 cd ./bin
-python check_wan_ip.py
+python3 check_wan_ip.py
 deactivate
