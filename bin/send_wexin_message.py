@@ -62,6 +62,6 @@ class SendWenXinMessage(object):
         response = requests.post(url=self.send_message_url, params={"access_token": self.access_token}, json=self.message_body)
         r = response.json()
         if r["errcode"] == 0:
-            logger.info("企业微信消息发送成功")
+            error_logger.info("企业微信消息发送成功")
         else:
             error_logger.error("企业微信消息发送失败")
