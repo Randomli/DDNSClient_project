@@ -1,0 +1,9 @@
+# Project exclude paths
+/venv/
+/test/
+/.idea/
+<<<<<<< HEAD
+/log/
+/conf/template.conf
+=======
+>>>>>>> origin/master
